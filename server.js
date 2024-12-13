@@ -17,7 +17,6 @@ app.use('/api/users', userRoutes);
 
 
 
-
 // Connexion à MongoDB
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('MongoDB connecté'))
